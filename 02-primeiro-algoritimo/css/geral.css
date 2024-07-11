@@ -21,6 +21,13 @@ h1, h2, h3 {
     padding: 10px;
     margin: 5px;
 }
+.box2 {
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 1px 1px 15px #030303;
+    margin: 5px;
+    padding-top: 10px;
+}
 
 strong {
     text-transform: uppercase;

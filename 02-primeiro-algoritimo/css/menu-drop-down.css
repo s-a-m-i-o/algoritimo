@@ -1,0 +1,19 @@
+.pt4 li {
+    position: relative;
+}
+
+.pt4 li .ocultar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: absolute;
+    background-color: blueviolet;
+    width: 200px;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.pt4 li:hover  .ocultar{
+    height:200px;
+}

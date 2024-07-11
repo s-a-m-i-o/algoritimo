@@ -72,6 +72,10 @@
     flex-wrap: wrap;
 }
 
+.pt4 {
+    height: 400px;
+}
+
 .pt4 ul li {
     list-style: none;
 }
@@ -79,6 +83,7 @@
 .pt4 ul {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 95%;
 }
 
