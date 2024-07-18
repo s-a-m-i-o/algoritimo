@@ -1,18 +1,21 @@
-algoritmo "Aluno"
+algoritmo "AlunoNota"
 var
    n1,n2,media:real
 inicio
 
+   Escreval ("----------------")
+   Escreval ("NOTA MÉDIA 7.5")
+   Escreval ("----------------")
    Escreval ("----------------")
    Escreva ("Primeira nota: ")
    leia (n1)
    Escreva ("Segunda nota: ")
    leia (n2)
    media<- (n1+n2) / 2
-   
+
    Escreval ("----------------")
    Escreva ("")
-   Escreval  ("Média: ", media)
+   Escreval  ("A média do aluno foi: ", media)
    Escreval ("")
    Escreval ("----------------")
 
